@@ -1,0 +1,6 @@
+image: alpine
+tasks:
+  lint:
+    input_paths:
+      - . # Toast will copy this file into the container before running the command.
+    command: echo hi
